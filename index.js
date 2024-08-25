@@ -5,9 +5,9 @@ app.use(express.json());
 // POST endpoint
 app.post('/bfhl', (req, res) => {
     const data = req.body.data || [];
-    const user_id = "john_doe_17091999";
-    const email = "john@xyz.com";
-    const roll_number = "ABCD123";
+    const user_id = "priyanshijaiswal";
+    const email = "priyanshijaiswal.com";
+    const roll_number = "21BCB0110";
 
     const numbers = data.filter(item => !isNaN(item));
     const alphabets = data.filter(item => isNaN(item));
